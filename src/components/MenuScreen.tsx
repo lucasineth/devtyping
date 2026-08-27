@@ -17,7 +17,8 @@ import {
   User,
   Users,
   Swords,
-  Crown
+  Crown,
+  Github
 } from 'lucide-react';
 import { LanguageId, DifficultyLevel, SoundMode, GameMode } from '../types';
 import { DEFAULT_TRACKS } from '../data/challenges';
@@ -393,9 +394,21 @@ export const MenuScreen: React.FC<MenuScreenProps> = ({
 
       {/* Footer */}
       <footer className="w-full border-t border-slate-800/80 bg-[#12141a] py-2.5 px-4 text-center text-xs text-slate-500">
-        <div className="max-w-5xl mx-auto flex items-center justify-between">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>DevTyping — Solo &amp; Duelo 1v1</span>
-          <span className="text-slate-400">Treino de Velocidade e Precisão</span>
+          <div className="flex items-center gap-3">
+            <span className="text-slate-400">Desenvolvido por Lucas Ineth</span>
+            <a
+              href="https://github.com/lucasineth/devtyping"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-slate-300 hover:text-cyan-300 transition-colors"
+              title="Acessar o projeto no GitHub"
+            >
+              <Github className="w-3.5 h-3.5" />
+              <span>GitHub</span>
+            </a>
+          </div>
         </div>
       </footer>
     </div>
