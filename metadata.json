@@ -1,0 +1,6 @@
+{
+  "name": "DevTyping - Treine seu Código",
+  "description": "Jogo de digitação interativo para desenvolvedores praticarem sintaxe, comandos de programação e memória muscular com métricas de WPM, precisão e ranking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
