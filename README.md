@@ -2,6 +2,8 @@
 
 Uma aplicação moderna e interativa de treino e teste de velocidade de digitação para desenvolvedores e entusiastas de teclado. Pratique com códigos reais de programação (JavaScript, TypeScript, Python, HTML/CSS, React, SQL, etc.) ou com frases do cotidiano e listas de objetos.
 
+[Acesse o DevTyping online na Vercel](https://devtyping-git-main-lucasineths-projects.vercel.app/)
+
 ---
 
 ## 🚀 Funcionalidades Principais
