@@ -94,7 +94,7 @@ export const MenuScreen: React.FC<MenuScreenProps> = ({
 
           {/* Quick Nav / Settings */}
           <div className="flex items-center gap-2">
-            <button
+            {/* <button
               id="menu-leaderboard-btn"
               onClick={onOpenLeaderboard}
               className="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-300 hover:text-amber-200 text-xs font-bold border border-slate-700 flex items-center gap-1.5 transition-all cursor-pointer shadow-sm active:scale-95"
@@ -106,7 +106,7 @@ export const MenuScreen: React.FC<MenuScreenProps> = ({
                   {totalScoresCount}
                 </span>
               )}
-            </button>
+            </button> */}
 
             <button
               onClick={onToggleSound}
