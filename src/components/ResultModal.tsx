@@ -353,7 +353,7 @@ export const ResultModal: React.FC<ResultModalProps> = ({
               <span>Ver Placar</span>
             </button>
 
-            <button
+            {/* <button
               id="result-share-btn"
               onClick={handleCopyResult}
               className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs border border-slate-700 flex items-center gap-1 cursor-pointer transition-all"
@@ -361,7 +361,7 @@ export const ResultModal: React.FC<ResultModalProps> = ({
             >
               <Share2 className="w-3.5 h-3.5" />
               <span className="hidden sm:inline">Copiar</span>
-            </button>
+            </button> */}
           </div>
 
           <div className="flex items-center gap-2">
